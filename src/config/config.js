@@ -5,4 +5,5 @@ module.exports = {
   password: process.env.DB_PASSWORD || 'hyperballad',
   host: process.env.DB_HOST || 'localhost',
   dialect: process.env.DB_DIALECT || 'postgres',
+  logging: false
 }
